@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |s|
   s.name = 'eventide'
-  s.version = '0.1.3'
+  s.version = '0.1.4'
   s.summary = 'EventStore libraries'
   s.description = 'Event sourcing, messaging, and client for the EventStore database, including supporting libraries for logging, dependency injection, serialization, HTTP, and more'
 
@@ -16,9 +16,4 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.2.3'
 
   s.add_runtime_dependency 'event_store-entity_store', '~> 0'
-
-  s.add_development_dependency 'minitest'
-  s.add_development_dependency 'minitest-spec-context', '~> 0'
-  s.add_development_dependency 'pry', '~> 0'
-  s.add_development_dependency 'runner', '~> 0'
 end

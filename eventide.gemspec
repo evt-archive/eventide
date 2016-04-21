@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |s|
   s.name = 'eventide'
-  s.version = '0.0.1.5'
+  s.version = '0.1.0.0'
   s.summary = 'EventStore libraries'
   s.description = 'Event sourcing, messaging, and client for the EventStore database, including supporting libraries for logging, dependency injection, serialization, HTTP, and more'
 

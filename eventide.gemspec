@@ -5,8 +5,8 @@ Gem::Specification.new do |s|
   s.summary = 'EventStore libraries'
   s.description = 'Event sourcing, messaging, and client for the EventStore database, including supporting libraries for logging, dependency injection, serialization, HTTP, and more'
 
-  s.authors = ['Obsidian Software, Inc']
-  s.email = 'opensource@obsidianexchange.com'
+  s.authors = ['The Eventide Project']
+  s.email = 'opensource@eventide-project.org'
   s.homepage = 'https://github.com/obsidian-btc/eventide'
   s.licenses = ['MIT']
 

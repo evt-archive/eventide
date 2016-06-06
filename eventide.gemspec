@@ -16,4 +16,5 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.2.3'
 
   s.add_runtime_dependency 'event_store-entity_store'
+  s.add_runtime_dependency 'event_store-consumer'
 end
